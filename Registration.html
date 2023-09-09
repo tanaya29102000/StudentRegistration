@@ -1,0 +1,257 @@
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student Registration</title>
+      </head>
+    
+      <body style="background-color: skyblue">
+        <div
+          style="display: flex; justify-content: space-evenly; align-items: center">
+          <div
+            style="
+              background-color: white;
+              justify-content: center;
+              justify-items: center;
+              margin: auto;
+              padding: 20px;
+              border-radius: 5px;">
+            <div style="text-align: center">
+              <h2 style="color: skyblue">Student Registration</h2>
+              <hr
+                style="text-align: center; border-color: skyblue; border-width: 2px"
+              />
+            </div>
+            <form
+              action="./Welcome.html"
+              method="get"
+              style="margin: 10px; padding: 10px">
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for="Name"
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                  Name</label>
+                <input
+                  type="text"
+                  name="Name"
+                  value=""
+                  placeholder="Enter you Name"
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px"/>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for="Class"
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;"
+                  >Class</label>
+                <input
+                  type="text"
+                  name="Class"
+                  value=""
+                  placeholder="Enter you Class"
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px"/>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for="Rollno"
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                    Rollno</label>
+                <input
+                  type="number"
+                  name="Rollno"
+                  value=""
+                  placeholder="Enter you Rollno"
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px"/>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for="Mobile"
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                    Mobile</label>
+                <input
+                  type="number"
+                  name="Mobile"
+                  value=""
+                  placeholder="Enter you Mobile"
+                  style="border-radius: 5px;
+                  border-color: skyblue; padding: 5px"/>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for=""
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin-top: 15px;">
+                  Gender</label>
+                <div style="display: flex">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="Male"
+                    id="Male"
+                    style="margin-left: 50px"/>
+                  <p>Male</p>
+                </div>
+                <div style="display: flex">
+                  <input type="radio" name="gender" value="Female" id="Female" />
+                  <p style="margin-right: 20px">Female</p>
+                </div>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for=""
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                  Select City
+                </label>
+                <select
+                  name="City"
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px">
+                  <option value="Nagpur">Nagpur</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Mumbai">Nashik</option>
+
+                </select>
+              </div>
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for=""
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                    Address</label>
+                <textarea
+                  name="address"
+                  id=""
+                  cols="20"
+                  rows="5"
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px"
+                ></textarea>
+              </div>
+           
+              <div
+                style="
+                  margin-bottom: 5px;
+                  justify-content: space-between;
+                  flex-direction: row;
+                  display: flex;">
+                <label
+                  for=""
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                  Select Pic</label>
+                <input
+                  type="file"
+                  value=""
+                  style="border-radius: 5px; border-color: skyblue; padding: 5px"
+                />
+                <br />
+              </div>
+              <div>
+                <label
+                  for=""
+                  style="
+                    color: skyblue;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;">
+                  Please Check
+                </label>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div style="margin: 10px; float: right">
+                <input
+                  type="submit"
+                  value="SIGNUP"
+                  style="
+                    background-color: cadetblue;
+                    color: white;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    align-items: center;
+                    border-radius: 10px;
+                    border-color: skyblue;
+                    cursor: pointer;"/>
+              </div>
+            </form>
+          </div>
+          <div style="margin: auto">
+            <a href="https://www.google.com" target="_blank">
+              <img
+                src="./pic.png"
+                alt=""
+                style="
+                  width: 180px;
+                  height: 180px;
+                  border-radius: 100%;
+                  background-color: white;
+                  padding: 2px;
+                "/>
+            </a>
+          </div>
+        </div>
+      </body>
+    </html>
